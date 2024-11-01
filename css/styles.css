@@ -10982,10 +10982,6 @@ html {
   width: 15rem;
 }
 
-img .masthead-avatar {
-  border-radius: 100%;
-}
-
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
