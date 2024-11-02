@@ -371,6 +371,10 @@ footer .column > a:hover {
 }
 
 @media (width < 600px) {
+  .content .status {
+    text-align: center;
+  }
+
   header .image::before {
     display: none;
   }
