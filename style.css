@@ -32,8 +32,9 @@ nav {
   gap: 2rem;
 }
 
-.nav-logo {
-  max-width: 100px;
+.nav-logo h1 {
+  color: #ffffff;
+  font-size: 2rem;
 }
 
 .nav-links {
