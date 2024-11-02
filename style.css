@@ -85,6 +85,12 @@ nav {
   padding: 5rem 2rem;
 }
 
+.container .status {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+}
+
 .blur {
   position: absolute;
   box-shadow: 0 0 1000px 50px #1d4ed8;
