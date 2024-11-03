@@ -358,6 +358,10 @@ footer .column > a:hover {
 }
 
 @media (width < 600px) {
+  .nama {
+    margin: auto;
+  }
+
   .content .status {
     text-align: center;
   }
