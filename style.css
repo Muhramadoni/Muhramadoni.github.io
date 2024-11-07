@@ -172,12 +172,17 @@ section .header {
 
 .skill-container {
   margin-bottom: 20px;
+  gap: 2px;
 }
-.skill-name {
+
+.skill-header {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #ffffff;
 }
+
 .progress-bar {
   background-color: #323232;
   border-radius: 5px;
@@ -187,6 +192,7 @@ section .header {
 }
 .progress {
   height: 100%;
+  padding-left: 10px;
   padding-right: 5px;
   color: white;
   font-weight: bold;
@@ -194,9 +200,21 @@ section .header {
   align-items: center;
   border-radius: 5px;
 }
+
+.frontend {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.backend {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .html {
   background-color: #1e40af;
-  width: 98%;
+  width: 100%;
 }
 .css {
   background-color: #1e40af;
@@ -206,6 +224,21 @@ section .header {
 .js {
   background-color: #1e40af;
   width: 85%;
+}
+
+.python {
+  background-color: #1e40af;
+  width: 80%;
+}
+
+.cpp {
+  background-color: #1e40af;
+  width: 50%;
+}
+
+.php {
+  background-color: #1e40af;
+  width: 55%;
 }
 
 footer {
@@ -290,12 +323,6 @@ footer .column > a:hover {
 
 /* Mobile responsive */
 @media (width < 600px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .nama {
     margin: auto;
   }
