@@ -290,6 +290,12 @@ footer .column > a:hover {
 
 /* Mobile responsive */
 @media (width < 600px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .nama {
     margin: auto;
   }
