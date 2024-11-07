@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -23,9 +25,8 @@ body {
 }
 
 nav {
-  max-width: 1200px;
   margin: auto;
-  padding: 2rem 1rem;
+  padding: 2rem 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,20 +81,33 @@ nav {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
   padding: 5rem 2rem;
 }
 
 .container .status {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  font-weight: 900;
 }
 
 .blur {
   position: absolute;
   box-shadow: 0 0 1000px 50px #1d4ed8;
   z-index: -100;
+}
+
+.bluet {
+  color: #1d4ed8;
+}
+
+.status span {
+  color: #1d4ed8;
+}
+
+.status {
+  font-family: "Sour Gummy", sans-serif;
 }
 
 header {
@@ -105,29 +119,17 @@ header {
   gap: 2rem;
 }
 
-header .content h4 {
-  margin-bottom: 1rem;
-  color: #ccc;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-header .content h1 {
+header .content .awal {
   color: #fff;
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 4rem;
+  line-height: 2rem;
 }
 
-header .content h1 span {
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #fff;
-}
-
-header .content p {
-  margin-bottom: 2rem;
-  color: #ccc;
+header .content .nama {
+  font-size: 3rem;
+  color: #fff;
 }
 
 header .image {
@@ -357,6 +359,7 @@ footer .column > a:hover {
   }
 }
 
+/* Mobile responsive */
 @media (width < 600px) {
   .nama {
     margin: auto;
