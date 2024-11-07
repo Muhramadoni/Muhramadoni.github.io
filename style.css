@@ -150,127 +150,62 @@ section .header {
   font-weight: 600;
 }
 
-.features {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+.about .deskripsi {
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 3rem;
 }
 
-.features .card {
+.card {
+  width: 100%;
+  padding: 3rem 3rem;
   background-color: #27272a;
-  padding: 1rem;
   border: 2px solid transparent;
   border-radius: 15px;
   transition: all 0.3s ease;
 }
 
-.features .card:hover {
-  background-color: #323232;
+.card:hover {
   border-color: #fff;
 }
 
-.features .card span {
-  display: inline-block;
-  background-color: #1e40af;
-  padding: 2px 9px;
-  margin-bottom: 1rem;
-  font-size: 1.75rem;
-  color: #fff;
+.skill-container {
+  margin-bottom: 20px;
+}
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.progress-bar {
+  background-color: #323232;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 20px;
+}
+.progress {
+  height: 100%;
+  padding-right: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
   border-radius: 5px;
 }
-
-.features .card h4 {
-  margin-bottom: 0.5rem;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.features .card p {
-  color: #ccc;
-  margin-bottom: 1rem;
-}
-
-.features .card a {
-  color: #fff;
-  transition: all 0.3s ease;
-}
-
-.features .card a:hover {
-  color: #1e40af;
-}
-
-.sub-header {
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  color: #ccc;
-}
-
-.pricing {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.pricing .card {
-  padding: 3rem 2rem;
-  background-color: #27272a;
-  display: flex;
-  flex-direction: column;
-  border: 2px solid transparent;
-  border-radius: 15px;
-  transition: all 0.3s ease;
-}
-
-.pricing .card:hover {
-  background-color: #323232;
-  border-color: #fff;
-}
-
-.pricing .card .content {
-  flex: 1;
-  margin-bottom: 2rem;
-}
-
-.pricing .card h4 {
-  margin-bottom: 1rem;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.pricing .card h3 {
-  color: #fff;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  font-weight: 600;
-  border-bottom: 2px dashed #fff;
-}
-
-.pricing .card p {
-  color: #fff;
-  margin-bottom: 0.75rem;
-}
-
-.pricing .card p i {
-  color: #ccc;
-  font-size: 1.2rem;
-  margin-right: 0.3rem;
-}
-
-.pricing .card button {
-  color: #fff;
-  background-color: transparent;
-  border: 2px solid #fff;
-}
-
-.pricing .card button:hover {
+.html {
   background-color: #1e40af;
-  border-color: #1e40af;
+  width: 98%;
+}
+.css {
+  background-color: #1e40af;
+  width: 90%;
+}
+
+.js {
+  background-color: #1e40af;
+  width: 85%;
 }
 
 footer {
@@ -348,12 +283,6 @@ footer .column > a:hover {
   header .image {
     grid-area: 1/1/2/2;
   }
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .pricing {
-    grid-template-columns: repeat(2, 1fr);
-  }
   footer {
     grid-template-columns: 1fr 200px;
   }
@@ -371,14 +300,6 @@ footer .column > a:hover {
 
   header .image::before {
     display: none;
-  }
-
-  .features {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .pricing {
-    grid-template-columns: repeat(1, 1fr);
   }
 
   footer {
