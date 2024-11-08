@@ -350,8 +350,15 @@ footer .column > a:hover {
 
 /* Mobile responsive */
 @media (width < 600px) {
-  .nama {
-    margin: auto;
+  nav {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+
+  .awal,
+  .nama,
+  .status {
+    text-align: center;
   }
 
   .content .status {
