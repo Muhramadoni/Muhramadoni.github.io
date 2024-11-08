@@ -157,6 +157,10 @@ section .header {
   padding: 3rem;
 }
 
+.deskripsi span {
+  color: #1d4ed8;
+}
+
 .icon {
   font-size: 1.6rem;
   display: flex;
