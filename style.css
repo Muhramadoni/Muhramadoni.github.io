@@ -349,7 +349,7 @@ footer .column > a:hover {
 }
 
 /* Mobile responsive */
-@media (width < 600px) {
+@media (width < 700px) {
   nav {
     padding: 15px 20px;
     margin-bottom: 20px;
